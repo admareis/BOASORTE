@@ -1,6 +1,6 @@
 let pokemon = [
     {id: 1, nome: "Bulbasaur", tipo: "Venenoso", habilidades: ["bom lutador", "bom em defesa especial", "velocidade de ataque", "velocidade"], imagem: "BOASORTE/imagens/1Bulbasaur.gif"},
-    {id: 2, nome: "Pikachu", tipo: "Elétrico", habilidades: ["alta velocidade", "ataques à distância", "paralisar o oponente", "descarregar altas tensões elétricas(choques)"] imagem:},
+    {id: 2, nome: "Pikachu", tipo: "Elétrico", habilidades: ["alta velocidade", "ataques à distância", "paralisar o oponente", "descarregar altas tensões elétricas(choques)"]},
     {id: 3, nome: "Clefairy", tipo: "Fada", habilidades: ["cute charm","magic guard - previne qualquer dano", "friend guard - ataques de companheiros de equipe são reduzidos", "brilho deslumbrante"]},
 ];
 
