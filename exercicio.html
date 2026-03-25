@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+    <style>
+      /*reset css*/      
+      body{
+        background-image: url("imagens/pokeball-1920-x-1080-background-fgz841sdikduiee9.jpg");
+        color:azure;
+        background-image: 100%;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <h1>Buscar Pokemon</h1>
+    <hr/>
+
+    <label for="buscar">Digite o ID</label>
+    <input type="number" name="buscar_pokemon" id="idUser"/>
+
+    <button onclick="buscarPokemon()">Buscar</button>
+
+    <p>Nome: <span id="nome"></span></p>
+    <p>Tipo: <span id="tipo"></span></p>
+    <p>Habilidades: <span id="habilidades"></span></p>
+
+    <img id="imagem" src="" alt="" style="display: none;" width="150px"/>
+
+    <script src="script2.js"></script>
+
+  </body>
+</html>
